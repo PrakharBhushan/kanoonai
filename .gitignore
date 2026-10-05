@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native builds
+/ios
+/android
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Secrets / environment — never commit these
+.env
+.env.*
+!.env.example
+google-services.json
+GoogleService-Info.plist
+
+# Metro
+.metro-health-check*
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# Build artifacts
+*.tgz
+
+# Internal product and build documents (kept private; never publish)
+CLAUDE.md
+*_PROMPT.md
+*Migration_Context.md
+PROGRESS.md
+TIMELOG.md
+APP_VERIFICATION.md
